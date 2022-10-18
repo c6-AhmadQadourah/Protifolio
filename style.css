@@ -1,0 +1,141 @@
+.big {
+  background-color: rgb(42, 42, 64);
+ height: 100vh;
+}
+
+.image {
+  position: absolute;
+  top: 0%;
+}
+
+.navbar-nav,
+.mr-auto {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.486) !important;
+}
+
+.navbar-nav > li:hover {
+  background-image: url("menu-hover-shape.webp");
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.navbar {
+  align-items: flex-end !important;
+  position: absolute;
+  padding-top: 15px !important ;
+  height: 120px !important;
+  width: 100% !important;
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.buttonn {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 65px;
+  border-radius: 32.5px;
+  line-height: 60px;
+  border: 1px solid #3b3d49;
+  position: absolute;
+  right: 20%;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(46, 46, 81);
+}
+
+.buttonn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.title {
+ 
+  font-size: 85px;
+  letter-spacing: 0;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+}
+.title2 {
+
+  font-size: 85px;
+  letter-spacing: 0;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.titleDiv{
+    /* background-color: rgb(70, 70, 15); */
+    position: relative;
+    top: 40%;
+    left: 12%;
+}
+
+
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+/* 
+    background-color: black; */
+}
+
+.imageDiv{
+    position: relative;
+}
+
+.image2{
+    
+    width: 500px;
+    height: inherit
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+  .buttonn {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .buttonn {
+    position: relative;
+    right: inherit;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.486);
+    font-weight: 500;
+    font-family: cursive;
+    bottom: 20px;
+    font-size: large;
+    border: 0ch;
+  }
+}
+
+@media only screen and (max-width: 1288px) {
+  .buttonn {
+    position: relative;
+    right: inherit;
+  }
+}
