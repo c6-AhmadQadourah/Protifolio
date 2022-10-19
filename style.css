@@ -1,6 +1,7 @@
 .big {
   background-color: rgb(42, 42, 64);
- height: 100vh;
+ height: 100%
+ 
 }
 
 
@@ -15,6 +16,14 @@
   color: white;
   background-color: rgb(46, 46, 81);
 
+}
+
+.linkedinLogo{
+  position: absolute;
+top: 80px;
+right: 0px;
+left: 565px;
+  width: 50px;
 }
 
 .image {
@@ -99,12 +108,16 @@
 .titleDiv{
     /* background-color: rgb(70, 70, 15); */
     position: relative;
-    top: 40%;
-    left: 12%;
+    top: 20%;
+    left: 9%;
+    height: fit-content
+}
+.row{
+  height: 937px;
 }
 
-
 .container {
+  height: 937px;
 display: grid;
 grid-template-columns: 1fr 1fr;
 /* 
@@ -112,13 +125,15 @@ grid-template-columns: 1fr 1fr;
 }
 
 .imageDiv{
-    position: relative;
+
+  width: fit-content;
 }
 
 .image2{
-    position: relative;
-    top: 91px;
-    width: 500px;
+    /* position: relative;
+    top: 91px; */
+ 
+    width: 900px;
     height: inherit
 }
 
@@ -131,6 +146,11 @@ grid-template-columns: 1fr 1fr;
   width: 100px;
 }
 
+.aa{
+  
+  position:relative ;
+ top: 85px;
+}
 
 
 .Page2{
@@ -190,19 +210,21 @@ grid-template-columns: 1fr 1fr;
   }
 
 
-  .container {
+  /* .container {
 
    grid-template-columns: 1fr;
     
-  }
+  } */
+
+
   .image2{  
-    width: 400px;
+    
+    width: 500px;
     height: inherit
 }
 
 .title {
- position: relative;
- top :36%;
+
   font-size: 50px;
   letter-spacing: 0;
   font-weight: 700;
@@ -211,8 +233,7 @@ grid-template-columns: 1fr 1fr;
   font-family: "Cormorant Garamond", serif;
 }
 .title2 {
-  position: relative;
-  top :36%;
+
   font-size: 50px;
   letter-spacing: 0;
   font-weight: 700;
@@ -226,12 +247,29 @@ grid-template-columns: 1fr 1fr;
 }
 
 .short{
+ 
+}
+.row{
+  flex-direction: column-reverse;
+}
+
+.aa{
+  bottom: 20%;
+}
+.col-9{
   position: relative;
-  top :36%;
+  bottom: 30%;
+
 }
 
 
+.image { 
+  width: 200px ;
+}
 
+.cvButton{
+  top: 0px;
+}
 }
 
 @media only screen and (max-width: 1288px) {
