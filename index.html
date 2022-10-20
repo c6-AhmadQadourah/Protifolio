@@ -16,10 +16,10 @@
   </head>
 
   <body class="body">
-    <div class="big">
-      <nav class="navbar navbar-expand-lg bg-none">
+    <div class="big" id="P1">
+      <nav class="navbar navbar-expand-lg bg-none ">
         <div class="container-fluid">
-          <img class="logo"  src="logo.png " alt=""> 
+          <img class="logo" src="logo.png " alt="" />
           <button
             class="navbar-toggler"
             type="button"
@@ -34,10 +34,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto justify-content-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#P1">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link projectsButton" href="#P2">Projects</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -70,53 +70,94 @@
 
       <div class="container">
         <div class="row">
-        <div class="col-9 titleDiv">
-          <h3 class="title">Hello! I’m</h3>
-          <h2 class="title2">Ahmad Qadoura</h2>
-          <h2 class="short">Full-Stack Software Engineer</h2>
-          <a
-            href="https://download943.mediafire.com/mvkz802tvdyg/5pk8zg52nz99xmj/Ahmad+H+Qadoura.pdf"
-          >
-            <button class="cvButton">Download CV</button></a
-          >
-        </div>
-
-        <div class="col-1 aa">
-          <img class="image2" src="try (1).png" alt="AhmadQadoura" />
-          <img class="linkedinLogo" src="images.png" alt="AhmadQadoura" />
-
-        </div>
-      </div>
-      </div>
-
-    <div class="Page2">
-
-
-      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="logo.png" class="d-block w-50" alt="...">
+          <div class="col-9 titleDiv">
+            <h3 class="title">Hello! I’m</h3>
+            <h2 class="title2">Ahmad Qadoura</h2>
+            <h2 class="short">Full-Stack Software Engineer</h2>
+            <a
+              href="https://download943.mediafire.com/mvkz802tvdyg/5pk8zg52nz99xmj/Ahmad+H+Qadoura.pdf"
+            >
+              <button class="cvButton">Download CV</button></a
+            >
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+
+          <div class="col-1 aa">
+            <img class="image2" src="try (1).png" alt="AhmadQadoura" />
+            <a
+              href="https://www.linkedin.com/in/ahmadqadoura/"
+              target="”_blank”"
+            >
+              <img class="linkedinLogo" src="images.png" alt="AhmadQadoura" />
+            </a>
+            <a href="https://github.com/AhmadQadourah" target="”_blank”">
+              <img class="githublogo" src="githublogo.png" alt="AhmadQadoura" />
+            </a>
+            <a href="https://web.facebook.com/Qadoura.ahmad" target="”_blank”">
+              <img
+                class="facebooklogo"
+                src="facebooklogo.png"
+                alt="AhmadQadoura"
+              />
+            </a>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
 
+      <div class="Page2" id="P2">
+        <div class="slideshow"> 
+          <h1 class="page2Header"> My Completed Projects</h1>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="download.svg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="movieApp.png" class="d-block w-100" alt="...">
+                </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            
+        </div>
+      </div>
     </div>
+      </div>  
+  
 
-    </div>
+      <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic">About us</div>
+              <p>CodingLab is a channel where you can learn HTML,
+              CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
+            </div>
+            <div class="lower">
+            
+            </div>
+          </div>
+          
+          <div class="right box">
+            <div class="topic">Contact us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>+962-78-6682097</a>
+            </div>
+            <div class="email">
+              <a href=""><i class="fas fa-envelope"></i>ahmad.h.qadoura@gmail.com</a>
+            </div>
+        </div>
+        <div class="bottom">
+          <p>Copyright © 2022 <a href="#">Ahmad Qadoura</a> All rights reserved</p>
+        </div>
+      </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
