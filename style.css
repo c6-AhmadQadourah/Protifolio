@@ -239,6 +239,12 @@ footer{
   left: 0;
   background: #111;
 }
+
+ .logo2{
+
+  width: 200px;
+ }
+
 footer .content{
   max-width: 1350px;
   margin: auto;
@@ -295,7 +301,9 @@ footer a:hover{
   color: #eb2f06;
 }
 
-
+.bot{
+  margin-top:  20px;
+}
 
 @media (max-width:1100px) {
   footer .content .middle{
