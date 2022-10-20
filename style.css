@@ -209,6 +209,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .page2Header{
+  
   color: white;
   margin-top: 150px;
   margin-bottom: 100px;
@@ -337,6 +338,33 @@ footer a:hover{
 
 
 
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+.short {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+ 
+}
+
+.short {
+  animation: animated-text 4s steps(35,end) 1s 1 normal both,
+             animated-cursor 600ms steps(35,end) infinite;
+}
+
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 500px;}
+}
+
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+} 
+
+
 /* ------------------------------------ mouse effect ----------------------- */
 
 
@@ -366,7 +394,10 @@ footer a:hover{
 
  
 
-
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 320px;}
+  }
 
   .buttonn {
     position: relative;
@@ -393,6 +424,7 @@ footer a:hover{
 
 
    .container {
+  
 
    display: block;
   
@@ -436,10 +468,13 @@ height: fit-content;
 }
 
 .aa{
+ 
 display: block;
 position: absolute;
 }
 .col-9{
+
+ 
 position: absolute;
 top: 450px;
 height: fit-content;
@@ -459,10 +494,12 @@ height: fit-content;
 
 
 .page2Header{
+ 
   font-size: 30px;
 text-align: start;
 right: 0px;
 left: 45px;
+width: 340px;
 }
 
 .Page2{
