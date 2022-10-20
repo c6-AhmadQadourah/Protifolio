@@ -2,6 +2,7 @@
   background-color: rgb(42, 42, 64);
  height: 100%;
  scroll-behavior: smooth;
+
 }
 
 
@@ -170,7 +171,7 @@ grid-template-columns: 1fr 1fr;
 .image2{
     /* position: relative;
     top: 91px; */
- 
+ display: block;
     width: 900px;
     height: inherit
 }
@@ -330,6 +331,39 @@ footer a:hover{
     padding-left: 0;
   }
 }
+
+/* -------------------------------- animation try ------------------------------ */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+.short {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+ 
+}
+
+/* Animation */
+.short {
+  animation: animated-text 4s steps(35,end) 1s 1 normal both,
+             animated-cursor 600ms steps(35,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 500px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+/* ------------------------------------ mouse effect ----------------------- */
 
 
 /* -------------------------------- Media Query ----------------------------- */
