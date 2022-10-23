@@ -192,6 +192,13 @@ grid-template-columns: 1fr 1fr;
  top: 85px;
 }
 
+.Page3{
+  background-color: rgb(45, 45, 61);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
 
 .Page2{
   background-color: rgb(39, 39, 57);
@@ -199,7 +206,6 @@ grid-template-columns: 1fr 1fr;
   display: flex;
   align-items: center;
   align-content: center;
-
 }
 
 .slideshow{
@@ -207,7 +213,38 @@ grid-template-columns: 1fr 1fr;
  
 
 }
+.page3Header{
+  
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
 
+.head3{
+  display: flex;
+ align-items: baseline;
+ gap: 15px;
+
+}
+.tech{
+  width: 50px;
+  height: 50px;
+ 
+}
+
+.skillsImg{
+  width: 100px;
+  /* border: 2px solid white;
+  border-radius: 10px */
+}
+
+
+.skillsDiv{
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+  margin-bottom: 20px;
+}
 .page2Header{
   
   color: white;
@@ -396,7 +433,7 @@ footer a:hover{
 
   @keyframes animated-text{
     from{width: 0;}
-    to{width: 320px;}
+    to{width: 300px;}
   }
 
   .buttonn {
@@ -460,7 +497,7 @@ footer a:hover{
 
 
 .short{
- font-size: 20px;
+ font-size: 19px;
 }
 .row{
 flex-direction: column;
@@ -490,6 +527,9 @@ height: fit-content;
   top: 0px;
 }
 
+.slideshow{
+  width: 500px;
+}
 
 
 
@@ -532,6 +572,21 @@ left: 228px;
     width: 20px;
 
 }
+
+
+
+.skillsDiv{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.skillsImg{
+width: 50px;
+
+}
+
 
 }
 
