@@ -55,7 +55,7 @@ border-radius: 10px;
 .p{
     gap: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 .informationDiv{
@@ -86,4 +86,7 @@ font-family: 'Courier New', Courier, monospace;
 
 .secLine{
     color:rgba(255, 255, 255, 0.486)
+}
+.slideshow1{
+    width: 1000px;
 }
