@@ -271,4 +271,8 @@ footer a:hover{
     font-size: small;
     margin: 10px;
  }
+
+ #line{
+  width: 100px;
+ }
 }
