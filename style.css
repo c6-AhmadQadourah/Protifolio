@@ -433,7 +433,10 @@ footer a:hover{
 @media only screen and (max-width: 990px) {
 
 
-
+  .TitleDiv{
+    position: relative;
+    right:  35px;
+  }
  
 
   .buttonn {
